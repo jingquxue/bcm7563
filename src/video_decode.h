@@ -1,0 +1,4 @@
+#ifndef KWT_VIDEO_DECODE_H#define KWT_VIDEO_DECODE_H#include "main.h"
+#include "nexus_video_decoder_types.h"eRet OpenSimpleVideoDecode(void);eRet AddHDVideoWindow(void);eRet AddSDVideoWindow(void);eRet StartVideoDecode(NEXUS_PidChannelHandle videoPidChannel);eRet GetSimpleVideoDecodeStatus(NEXUS_VideoDecoderStatus * pStatus);eRet StopSimpleVideoDecode(void);eRet CloseSimpleVideoDecode(void);eRet GetVideoDecodeStatus(NEXUS_VideoDecoderStatus * pStatus);int GetVideoDecodeStarted(void);eRet CloseVideoDecode();eRet SetSimpleVideoDecoderStc(void);unsigned int GetSimpleVIdeoDecodeFrame(void);
+#endif
+

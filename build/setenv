@@ -1,0 +1,6 @@
+export NEXUS_PLATFORM=97563
+export PLATFORM=97563
+export BCHP_VER=A0
+export LINUX=/home/mdk/work/bcm7563/linux/linux
+export PATH=/home/mdk/work/bcm7563/toolchains/stbgcc-4.5.3-2.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
